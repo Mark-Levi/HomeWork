@@ -24,7 +24,6 @@ export function siteView(listComments, firstLoading=false, isLoading=false, auto
   </div>`;
     return commentsHtml;
   }
-
   //Загрузка списка комментариев
   commentsHtml = `
   <ul class="comments" id="comments" >` +
